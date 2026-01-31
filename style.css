@@ -1,1 +1,307 @@
 
+body{
+background-color:rgb(198 198 198);
+margin: 0;
+text-decoration: none; 
+font-family: Fira Sans;
+font-weight: 600;
+}
+nav{
+background-color: rgb(13, 115, 13);
+width: 100vw;
+height: 10vh;
+color: whitesmoke;
+position: relative;
+display: flex;
+flex-direction: row;
+font-family: Fira Sans;
+align-items: center;
+box-shadow: rgb(255, 248, 151) 0px 8px 25px;
+}
+a {
+text-decoration: none;
+  }
+
+
+#links{
+right: 30px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+position: absolute;
+width: 450px;
+}
+.link a{
+padding: 15px;
+}
+.link{
+color: white;
+text-decoration: none; 
+display: block;
+ margin: 5px;
+ font-size: 20px;
+ text-shadow: black 1px 2px 1px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.link:hover{
+text-shadow: black 2px 4px 4px;
+transition: ease-in-out;
+background-color: rgb(15, 126, 15);
+transition-duration: 0.3s;
+}
+nav a{
+text-decoration: none;
+color: white;
+}
+.logo{
+position: absolute;
+left: 10px;
+font-size: 35px;
+text-shadow: rgb(14, 38, 11) 2px 2px 5px;
+}
+.logo a{
+padding: 15px;
+border-radius: 8px;
+}
+.logo a:hover{
+background-color: rgb(15, 126, 15);
+transition: ease-in-out;
+transition-duration: 0.3s;
+text-shadow: rgb(14, 38, 11) 2px 2px 2px;
+}
+.mainpic img{
+width: 100vw;
+}  
+.mainpic{
+height: 85vh;
+display: flex;
+border-bottom: 20px solid rgb(255, 247, 138);
+background-image: url("img.png"); 
+background-size: cover;
+}
+.pic{
+height: 85vh;
+display: flex;
+border-bottom: 20px solid rgb(255, 247, 138);
+background-size: cover;
+}
+
+.aboutpic{
+background-image: url("coach.webp"); 
+}
+
+.pic .box{
+background: rgb(255, 252, 151, 0.6);
+width: 100vw;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.box h8{
+text-align: left;
+display: flex;
+flex-direction: column;
+font-size: 80px;
+color: rgb(9, 79, 9);
+}
+.box h9{
+padding-top:20px ;
+text-align: left;
+line-height: 50px;
+display: flex;
+flex-direction: column;
+font-size: 40px;
+color: rgb(0, 0, 0);
+text-shadow: 0px 1px 6px white;
+}
+
+.box h8,.box h9{
+padding: 20px;
+text-shadow: 2px 2px 2px white;
+}
+.text h2{
+width: 600px;
+text-align: center;
+font-size: 40px;
+color: rgb(12 96 12);
+text-shadow: rgb(255, 248, 151) 1px 2px 0px;
+}
+
+.writing{
+width: 540px;    
+}
+
+.text{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+.indx{
+height: 550px;
+}
+.text h3{
+font-size: 25px;
+
+font-family: "Noto Serif";
+font-weight: 500;
+}
+.text .sideimg{
+
+right: 50px;
+top: 100px;
+scale: 80%;
+
+}.text .sideimg img{
+
+border-radius: 50px;
+}
+.Text{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+
+}
+
+.crossline{
+width:100vw;
+height: 50px;
+margin: 0;
+background-color: rgb(255, 248, 151);
+}
+.new{
+background-color: rgb(231, 224, 126);
+width: 100vw;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 500px;
+color: rgb(11, 71, 8);
+border-top: 10px ridge rgb(22, 22, 22);
+}
+.new h11{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+color: rgb(11, 71, 8);
+font-size: 25px; 
+width: 600px;
+font-family: "Noto Serif";
+font-weight: 600;
+}
+.new img{
+scale: 75%;
+border-radius: 35px;
+}
+.new img{
+box-shadow:-7px 5px 20px 8px #c6c6c6;
+}
+.text img{
+box-shadow:7px -5px 20px 4px #e7e07e;    
+}
+#footer{
+width: 100vw;
+height: 50px;
+background-color: green;
+box-shadow: 0px -5px 20px 1px black;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+h90{
+top: 20px;
+left: 40px;
+}
+h23{
+left: 370px;
+top: 20px;
+}
+.line{
+height:8px;
+width: 820px;
+background-color: rgb(234, 167, 79);
+}
+.abouttext h3{
+font-size: 35px;
+}
+.abt {
+height: 100vh;
+}
+.a.sideimg{
+scale: 70%; 
+}
+.howpic{
+background-image: url("a.jpg");
+}
+
+.how{
+flex-direction: column;
+}
+
+.how .Text .howtext{
+width: 80vw;
+}
+.howtext h3{
+font-size: 35px;
+text-align: center;
+font-family: "Ubuntu", "Gidole";
+font-weight: 500;
+}
+.how .sideimg img{
+width: 1400px;
+}
+.conpic{
+background-image: url("Field1.jpg");
+}
+.con{
+flex-direction: column;
+height: 500px;
+justify-content: flex-start;
+}
+
+.context h3{
+font-size: 40px;
+text-align: center;
+font-family: "Ubuntu", "Gidole";
+font-weight: 500;
+}
+.button{
+width: 300px;
+height: 100px;
+background-color: green;
+color: #e7e07e;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 70px;
+box-shadow: 0px 4px 5px black;
+font-size: 20px;
+text-shadow: 0px 3px 1px #959156;
+}
+.donpic{
+    background-image: url("u.jpg");
+}
+.button2{
+width: 300px;
+height: 100px;
+background-color: green;
+color: #e7e07e;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 70px;
+box-shadow: 0px 4px 5px black;
+font-size: 20px;
+text-shadow: 0px 3px 1px #959156;
+text-align: center;
+}
+
+
