@@ -77,7 +77,7 @@ width: 100vw;
 height: 85vh;
 display: flex;
 border-bottom: 20px solid rgb(255, 247, 138);
-background-image: url("img.png"); 
+background-image: url("13.png"); 
 background-size: cover;
 }
 .pic{
@@ -88,7 +88,7 @@ background-size: cover;
 }
 
 .aboutpic{
-background-image: url("coach.webp"); 
+background-image: url("15.webp"); 
 }
 
 .pic .box{
@@ -239,7 +239,7 @@ height: 100vh;
 scale: 70%; 
 }
 .howpic{
-background-image: url("a.jpg");
+background-image: url("1.jpeg");
 }
 
 .how{
@@ -259,7 +259,7 @@ font-weight: 500;
 width: 1400px;
 }
 .conpic{
-background-image: url("Field1.jpg");
+background-image: url("9.jpeg");
 }
 .con{
 flex-direction: column;
@@ -287,7 +287,7 @@ font-size: 20px;
 text-shadow: 0px 3px 1px #959156;
 }
 .donpic{
-    background-image: url("u.jpg");
+    background-image: url("12.jpeg");
 }
 .button2{
 width: 300px;
