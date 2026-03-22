@@ -283,6 +283,7 @@ font-weight: 500;
 h5{
 font-size: 45px;
 text-align: center;
+  color: red;
 }
 .button{
 width: 300px;
