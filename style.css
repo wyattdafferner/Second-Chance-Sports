@@ -280,8 +280,9 @@ font-family: "Ubuntu", "Gidole";
 font-weight: 500;
 }
 
-.h5{
-font-size: 50px;
+h5{
+font-size: 45px;
+text-align: center;
 }
 .button{
 width: 300px;
