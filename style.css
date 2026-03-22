@@ -50,6 +50,11 @@ transition: ease-in-out;
 background-color: rgb(15, 126, 15);
 transition-duration: 0.3s;
 }
+
+.droplink{
+  display: none;
+}
+
 nav a{
 text-decoration: none;
 color: white;
@@ -77,7 +82,7 @@ width: 100vw;
 height: 85vh;
 display: flex;
 border-bottom: 20px solid rgb(255, 247, 138);
-background-image: url("13.png"); 
+background-image: url("img.png"); 
 background-size: cover;
 }
 .pic{
@@ -88,7 +93,7 @@ background-size: cover;
 }
 
 .aboutpic{
-background-image: url("15.webp"); 
+background-image: url("coach.webp"); 
 }
 
 .pic .box{
@@ -122,6 +127,7 @@ text-shadow: 0px 1px 6px white;
 .box h8,.box h9{
 padding: 20px;
 text-shadow: 2px 2px 2px white;
+text-align: center;
 }
 .text h2{
 width: 600px;
@@ -132,7 +138,7 @@ text-shadow: rgb(255, 248, 151) 1px 2px 0px;
 }
 
 .writing{
-width: 600px;    
+width: 540px;    
 }
 
 .text{
@@ -239,7 +245,7 @@ height: 100vh;
 scale: 70%; 
 }
 .howpic{
-background-image: url("1.jpeg");
+background-image: url("a.jpg");
 }
 
 .how{
@@ -259,7 +265,7 @@ font-weight: 500;
 width: 1400px;
 }
 .conpic{
-background-image: url("9.jpeg");
+background-image: url("Field1.jpg");
 }
 .con{
 flex-direction: column;
@@ -267,15 +273,6 @@ height: 500px;
 justify-content: flex-start;
 }
 
-#email{
- display: flex;
-justify-content: center;
-align-items: center;
-
-}
-h5{
-font-size: 40px;
-}
 .context h3{
 font-size: 40px;
 text-align: center;
@@ -296,7 +293,7 @@ font-size: 20px;
 text-shadow: 0px 3px 1px #959156;
 }
 .donpic{
-    background-image: url("12.jpeg");
+    background-image: url("u.jpg");
 }
 .button2{
 width: 300px;
@@ -312,5 +309,103 @@ font-size: 20px;
 text-shadow: 0px 3px 1px #959156;
 text-align: center;
 }
+@media (max-width: 800px){
 
+.menuButton{
+height: 30px;
+width: 40px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 90%;
+margin-top: 10px;
+}
+
+.Line{
+background-color: white;
+width: 38px;
+height: 4px;
+box-shadow: 2px 2px 2px black;
+border-radius: 6px;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.link{
+display: none;
+}
+
+
+.drop{
+width: 20%;
+height: 180px;
+background-color: rgb(34, 145, 60);
+display: none;
+position: absolute;
+right: 0;
+top: 59px;
+
+}
+
+.droplink{
+display: block;
+text-align: center;
+width: 100%;
+padding-top: 20px;
+padding-bottom: 20px;
+transition-duration: 0.9s;
+background-color: rgb(34, 145, 60);
+}
+.droplink > a{
+  font-size: 16px;
+  transition-duration: 0.9s;
+}
+
+.droplink:hover{
+  background-color: rgb(33, 122, 54);
+  transition-duration: 0.6s;
+}
+
+.droplink:hover > a{
+  font-size: 18px;
+  transition-duration: 0.6s;
+}
+
+.menuButton:hover > .drop{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
